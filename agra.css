@@ -1,0 +1,277 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  .navbar-items-c{
+    display:inline-block;
+    float:right;
+  }
+  .navbar{
+    background-color:#222;
+    color:#ddd;
+    min-height:50px;
+    width:100%;
+  }
+  .navbar-container{
+    max-width:950px;
+    margin:0 auto;
+    width:95%;
+  }
+  .navbar-container::after{
+    content:"";
+    clear:both;
+    display:block;
+  }
+  .navbar-brand{
+    vertical-align:top;
+    display:inline-block;
+    padding:5px;
+    min-height:50px;
+    min-width:50px;
+    color:inherit;
+    text-decoration:none;
+  }
+  .navbar-menu{
+    padding:10px 0;
+    display:block;
+    float:right;
+    margin:0;
+  }
+  .navbar-menu-link{
+    margin:0;
+    color:inherit;
+    text-decoration:none;
+    display:inline-block;
+    padding:10px 15px;
+  }
+  .navbar-burger{
+    margin:10px 0;
+    width:45px;
+    padding:5px 10px;
+    display:none;
+    float:right;
+    cursor:pointer;
+  }
+  .navbar-burger-line{
+    padding:1px;
+    background-color:white;
+    margin:5px 0;
+  }
+  .Topic{
+      font-size: 2rem;
+  }
+  .tab{
+      font-size: 1.2rem;
+      background-color:orange;
+    text-decoration:none;
+    color:inherit;
+    padding:7px 14px;
+    transition:opacity 0.3s;
+    display:inline-block;
+    border-radius:3px;
+    margin-right:10px;
+  }
+  .tab:hover {
+    box-shadow: 2px 2px 5px grey;
+  }
+  .tab.tab-active{
+    background-color:#0d94e6;
+    color:white;
+  }
+  .tab-content{
+    padding:6px 12px;
+    min-height:100px;
+    animation:fadeEffect 1s;
+  }
+  #ih0el{
+    color:black;
+    width:90vw;
+    height:70vh;
+  }
+  #iqv8s{
+    height:60vh;
+    width:90vw;
+  }
+  #is8n4{
+    color:black;
+    width:90vw;
+    height:60vh;
+  }
+  #i7ndn{
+    color:black;
+    width:90vw;
+    height:70vh;
+  }
+  #icnkc{
+    padding:10px;
+  }
+  #idqbu{
+    padding:10px;
+  }
+  #ii9lpw{
+    padding:10px;
+  }
+  #ika3y{
+    margin:0px;
+    padding:0px;
+    font-family:Font-Bold;
+    text-align:-webkit-center;
+  }
+  #il7eg{
+    margin:0px;
+    padding:0px;
+    font-family:Font-Bold;
+    text-align:-webkit-center;
+  }
+  #ipsm3{
+    margin:0px 0px 10px;
+    padding:0px;
+    font-family:Font-Light, sans-serif;
+    text-align:-webkit-center;
+  }
+  #ixfiz{
+    margin:0px 0px 10px;
+    padding:0px;
+    font-family:Font-Light, sans-serif;
+    text-align:-webkit-center;
+  }
+  #ij2bn{
+    margin:0px;
+    padding:0px;
+    font-family:Font-Bold;
+    text-align:-webkit-center;
+  }
+  #is4fb{
+    margin:0px 0px 10px;
+    padding:0px;
+    font-family:Font-Light, sans-serif;
+    text-align:-webkit-center;
+  }
+  #i0sbi{
+    margin:0px 0px 10px;
+    padding:0px;
+    font-family:Font-Light, sans-serif;
+    text-align:-webkit-center;
+  }
+  #i3cbp{
+    margin:0px;
+    padding:0px;
+    font-family:Font-Bold;
+    text-align:-webkit-center;
+  }
+  #iytta{
+    margin:0px 0px 10px;
+    padding:0px;
+    font-family:Font-Light, sans-serif;
+    text-align:-webkit-center;
+  }
+  #iqjia{
+    margin:0px 0px 10px;
+    padding:0px;
+    font-family:Font-Light, sans-serif;
+    text-align:-webkit-center;
+  }
+  #unique-museums{
+    margin:0px;
+    padding:0px;
+    letter-spacing:0px;
+    color:rgb(94, 187, 160);
+    scroll-margin-top:142px;
+  }
+  #ihwdk{
+    margin:0px;
+    padding:0px;
+    font-family:Font-Bold;
+    text-align:-webkit-center;
+  }
+  #ily8xj{
+    margin:0px 0px 20px;
+    font-size:19px;
+    line-height:2;
+    color:rgb(91, 91, 91);
+    font-family:Taviraj, Georgia, Times, serif;
+  }
+  #ieawtz{
+    margin:0px 0px 20px;
+    font-size:19px;
+    line-height:2;
+    color:rgb(91, 91, 91);
+    font-family:Taviraj, Georgia, Times, serif;
+  }
+  #i5j3q1{
+    text-align:-webkit-center;
+  }
+  #i009lb{
+    font-size:19px;
+  }
+  #iymric{
+    font-size:18.72px;
+  }
+  #iid2ot{
+    font-size:18.72px;
+  }
+  #iuzh8j{
+    font-size:18.72px;
+  }
+  #iio978{
+    font-weight:400;
+  }
+  @media fadeEffect{
+    from{
+      opacity:0;
+    }
+    to{
+      opacity:1;
+    }
+    from{
+      opacity:0;
+    }
+    to{
+      opacity:1;
+    }
+    from{
+      opacity:0;
+    }
+    to{
+      opacity:1;
+    }
+    from{
+      opacity:0;
+    }
+    to{
+      opacity:1;
+    }
+  }
+  @media (max-width: 768px){
+    .navbar-burger{
+      display:block;
+    }
+    .navbar-items-c{
+      display:none;
+      width:100%;
+    }
+    .navbar-menu{
+      width:100%;
+    }
+    .navbar-menu-link{
+      display:block;
+    }
+  }
+  @media (max-width: 480px){
+    #ih0el{
+      width:auto;
+      height:40vh;
+    }
+    #iqv8s{
+      height:40vh;
+    }
+    #is8n4{
+      height:40vh;
+    }
+    #i7ndn{
+      height:40vh;
+    }
+  }
+  
