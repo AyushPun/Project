@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Raleway&display=swap');
 * {
     box-sizing: border-box;
+   
   }
   .html{
       background-color:beige;
   }
   body {
     margin: 0;
+    font-family: 'Raleway', sans-serif;
   }
   
   .Topic{
-      font-size: 2rem;
+      font-size: 3rem;
+      font-family: 'Corinthia', cursive;
   }
+  
+  .separate {
+    height: 5vh;
+  }
+
   .tab{
     background-color:orange;
     font-size:1.2rem;
